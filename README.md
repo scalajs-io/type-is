@@ -46,14 +46,6 @@ Http.createServer( (req, res) => {
 })
 ```
 
-Using `Type-is` synchronously
-
-```scala
-  val hash = Type-is.hashSync(myPlaintextPassword, saltRounds)
-  val isMatch = Type-is.compareSync(myPlaintextPassword, hash)
-  println(s"The password was a match: $isMatch") // The password was a match: true
-```
-
 #### Artifacts and Resolvers
 
 To add the Moment binding to your project, add the following to your build.sbt:  
