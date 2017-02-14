@@ -1,21 +1,23 @@
-Type-is API for Scala.js
+TypeIs API for Scala.js
 ================================
-This is a Scala.js type-safe binding for [Type-is](https://www.npmjs.com/package/type-is)
+[type-is](https://www.npmjs.com/package/type-is) - Infer the content-type of a request.
+
+### Description
 
 Infer the content-type of a request.
 
-#### Build Dependencies
+### Build Dependencies
 
-* [ScalaJs.io v0.3.x](https://github.com/ldaniels528/scalajs.io)
+* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
-#### Build/publish the SDK locally
+### Build/publish the SDK locally
 
 ```bash
  $ sbt clean publish-local
 ```
 
-#### Running the tests
+### Running the tests
 
 Before running the tests the first time, you must ensure the npm packages are installed:
 
@@ -29,7 +31,7 @@ Then you can run the tests:
 $ sbt test
 ```
 
-#### Examples
+### Examples
 
 ```scala
 import io.scalajs.nodejs.http.Http
@@ -46,12 +48,12 @@ Http.createServer( (req, res) => {
 })
 ```
 
-#### Artifacts and Resolvers
+### Artifacts and Resolvers
 
-To add the Moment binding to your project, add the following to your build.sbt:  
+To add the `TypeIs` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "type-is" % "0.3.0.3"
+libraryDependencies += "io.scalajs.npm" %%% "type-is" % "1.6.14"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
