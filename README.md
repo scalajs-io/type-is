@@ -52,7 +52,7 @@ Http.createServer( (req, res) => {
 To add the `TypeIs` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "type-is" % "1.6.14-3"
+libraryDependencies += "io.scalajs.npm" %%% "type-is" % "1.6.14-4"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
