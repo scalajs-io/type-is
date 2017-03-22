@@ -1,6 +1,6 @@
 {
   "name": "type-is-sjs",
-  "version": "1.6.14-4",
+  "version": "0.4.0-pre1",
   "private": true,
   "dependencies": {
     "source-map": "^0.5.6",
